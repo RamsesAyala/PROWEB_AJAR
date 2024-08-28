@@ -9,7 +9,6 @@ document.getElementById("edad").textContent = edad;
 document.getElementById("estatura").textContent = estatura;
 document.getElementById("peso").textContent = peso;
 
-// Mostrar un mensaje con los datos en la consola
 console.log("Datos:");
 console.log("Nombre: " + nombre);
 console.log("Edad: " + edad);
