@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adivina el número</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Adivina el número del 1 al 10</h1>
+    <p>Adivina el número en 5 intentos.</p>
+    <label for="guessInput">Introduce tu número:</label>
+    <input type="number" id="guessInput" min="1" max="10">
+    <button onclick="checkGuess()">Adivinar</button>
+    <p id="result"></p>
+
+    <script src="Adivina.js"></script>
+</body>
+</html>
